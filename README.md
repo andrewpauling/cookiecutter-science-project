@@ -1,8 +1,4 @@
-> [!WARNING]  
-> **THIS PROJECT IS NO LONGER ACTIVELY MAINTAINED**
-> Consider the resources provided by [Scientific Python](https://scientific-python.org/) and in particular the [Scientific Python Library Development Guide](https://learn.scientific-python.org/development/) as alternative!
-
-[![Build Status](https://img.shields.io/github/workflow/status/jbusecke/cookiecutter-science-project/CI?logo=github)](https://github.com/jbusecke/cookiecutter-science-project/actions)
+[![Build Status](https://img.shields.io/github/workflow/status/andrewpauling/cookiecutter-science-project/CI?logo=github)](https://github.com/andrewpauling/cookiecutter-science-project/actions)
 [![DOI](https://zenodo.org/badge/169483949.svg)](https://zenodo.org/badge/latestdoi/169483949)
 
 # Cookiecutter Science Project
@@ -35,7 +31,7 @@ $ conda install -c conda-forge cookiecutter
 ## Quickstart
 To start a new project, run:
 ``` bash
-$ cookiecutter https://github.com/jbusecke/cookiecutter-science-project
+$ cookiecutter https://github.com/andrewpauling/cookiecutter-science-project
 ```
 (*this should be run from the location that you want the project folder to live, or you will need to move the directory around later.*)
 
@@ -277,7 +273,7 @@ Until then SCIENCE ON!
 
 The template has some rudimentary tests, but in order to test a PR/branch in a real world scenario, I currently submit the PR and then check out the corresponding branch with:
 ```shell
-cookiecutter https://github.com/jbusecke/cookiecutter-science-project --checkout <pr_branch>
+cookiecutter https://github.com/andrewpauling/cookiecutter-science-project --checkout <pr_branch>
 ```
 
 That way I can test the full workflow including setting up a github repo and pushing to there.
