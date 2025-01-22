@@ -208,7 +208,7 @@ Wouldnt it be nice if some other researcher could just install your project and 
 You can easily move code out of your notebooks into a new python module `project_name/new_module.py`.
 When you install your package with
 ```
-$ python setup.py develop
+$ pip install -e .
 ```
 you can import your function `awesome_diagnostic` in a notebook with
 ```python
