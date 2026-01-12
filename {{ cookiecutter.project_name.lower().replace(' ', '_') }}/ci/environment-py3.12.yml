@@ -4,11 +4,13 @@ channels:
 dependencies:
   - python=3.12
   ############## These will have to be adjusted to your specific project
+  - setuptools>=75.0.1
   - numpy
   - scipy
   - xarray
   ##############
   - pytest
+  - pip>=25.0
   - pip:
     - codecov
     - pytest-cov
